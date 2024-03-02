@@ -4,13 +4,13 @@ class Storage {
     this.#item = item
   }
   getItems() {
-return this.#item;
+return this.#item
   }
   addItem(newItem) {
-return this.#item.push(newItem);
+this.#item.push(newItem)
   }
   removeItem(itemToRemove) {
-    return this.#item = this.#item.filter(item => item !== itemToRemove);
+ this.#item = this.#item.filter(item => item !== itemToRemove)
   }
 }
 
